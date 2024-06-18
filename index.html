@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+<title>Check-confirm-password</title>
+
+<!-- Adding Styling Links -->
+
+<link href="./style.css" type="text/css" rel="stylesheet" />
+</head>
+
+<!-- Body Start -->
+
+<body>
+<div class="main">
+
+<div class="input-box">
+<input type="password" name="password" required id="pass"/>
+<label for="pass">Create password</label>
+</div>
+
+<div class="input-box">
+<input type="password" name="confirm-password" required id="con-pass"/>
+<label for="con-pass">Confirm password</label>
+<i><img src="./images/view.png" width="14" heights="16" class="show"/></i>
+</div>
+
+<div class="alert">
+<i><img src="./images/mark.png" width="15" height="15" id="errorIcon" /></i>
+<span id="text">Enter at least 8 characters</span>
+</div>
+
+<div class="input-box-button">
+<input type="button" name="check-btn" required id="button" value="Check" />
+</div>
+
+</div>
+
+<!-- Javascript file link -->
+<script src="./js pages/script.js"></script>
+</body>
+
+<!-- Body Closed -->
+
+</html>
